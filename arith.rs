@@ -1,8 +1,4 @@
-/*/src/arth.rs
- * TODO 
- * 1. Functionally verify modular addition, subtraction, multiplication (Verus)
- */
-
+/*/src/arth.rs*/
 use vstd::prelude::*;
 
 verus! {
@@ -40,7 +36,8 @@ pub open spec fn valid_coeff_u32(r: u32) -> bool {
 
 
 
-// *** Proof Lemmas ***
+//Proofs//
+/////////
 
 mod lemmas {
     use super::*;
