@@ -23,6 +23,14 @@ ML-KEM (formerly CRYSTALS-Kyber) is a post-qunatumm key encapsulation method whi
 - Compress/Decompress error bounds
 - End-to-end functional correctness of KeyGen/Encaps/Decaps
 
+
+## Mathematical Background
+### Module-LWE
+### Polynomial Ring
+Given $q = 3329$
+### Number Theoretic Transform
+
+
 ## Important Note on Security
 
 These proofs establish **functional correctness**, not cryptographic security.
